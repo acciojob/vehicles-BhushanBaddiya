@@ -13,6 +13,11 @@ public class F1 extends Car {
     }
 
 
+    @Override
+    public boolean isManual() {
+        return isManual;
+    }
+
     public void accelerate(int rate){
         int newSpeed = 0; //set the value of new speed by using currentSpeed and rateF1 currSpped
         int currSpeed = super.getCurrentSpeed();
